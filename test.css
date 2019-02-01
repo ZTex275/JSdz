@@ -17,31 +17,20 @@ li  {
   font: 16px Century, serif;
 }
 
-div2{
-  padding: 0px 400px;
-}
-
-p{
-  width: 800px;;
-}
-
-h3{
-  padding: 0px 80px;
+h2{
+  padding: 0px 60px;
   font: 25px ;
 }
 
 .around_elm{
 	display: flex;
   justify-content: space-around;
-  margin-right: 750px;
- 
 }
 
 .around_elm_product{
 	display: flex;
 	justify-content: space-around;
   margin-left: -5px;
-  margin-right: 750px;
   color: #6fa5f4;
   font: 18px Century, serif;
 }
@@ -52,8 +41,9 @@ h3{
 }
 
 ul.hr{
-  float: left;
-  padding: 90px 200px;
+  display: flex;
+  float: right;
+  padding: 80px 80px;
   margin: 0;
 }
 
@@ -68,13 +58,8 @@ ul.hr li {
   padding: 0px 20px;
 }
 
-ul.hz{
-   float: left;
-   padding: 0px 25px;
+.phone{
+  display: flex;
+  justify-content: space-around;
+  padding: 150px 0px;
 }
-
-ul.hz li {
-  display: inline; /* Отображать как строчный элемент */
-  margin-right: 160px;
-}
-
